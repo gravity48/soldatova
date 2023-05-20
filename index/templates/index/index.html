@@ -1,0 +1,210 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load index_tag %}
+{% block content %}
+
+<section id="block2">
+    <h3>Мы знаем, как презентовать эмоции!</h3>
+    <div class="content">
+        <div class="card">
+            <div class="card-picture">
+                <div class="custom-video-controller">
+                    <div class="control-buttons">
+                        <button type="button">
+                            <img src="{% static 'index/svg/play.svg' %}">
+                        </button>
+                    </div>
+                </div>
+                <video poster="{% static 'index/img/song_video_poster1.jpg' %}">
+                    <source src="/media/song_1.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div>
+                <h5 class="card-header">Песня по вашей истории <br>
+                    любви, дружбы и т.д.</h5>
+                <p class="card-text">Песня с учетом любых
+                    деталей ваших взаимоотношений в исполнении профессиональных вокалистов или для вашего исполнения</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-picture">
+                <div class="custom-video-controller">
+                    <div class="control-buttons">
+                        <button type="button">
+                            <img src="{% static 'index/svg/play.svg' %}">
+                        </button>
+                    </div>
+                </div>
+                <video poster="{% static 'index/img/stih_video_poster.jpg' %}">
+                    <source src="/media/stih_video.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div>
+                <h5 class="card-header">Стихотворение по <br> вашей истории</h5>
+                <p class="card-text">Стих с учетом любых
+                    подробностей, деталей и
+                    моментов.
+                    Учитываем <br> любые факты,
+                    даты, названия,
+                    особенности характера
+                    адресата и т.д.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-picture">
+                <div class="custom-video-controller">
+                    <div class="control-buttons">
+                        <button type="button">
+                            <img src="{% static 'index/svg/play.svg' %}">
+                        </button>
+                    </div>
+                </div>
+                <video poster="{% static 'index/img/slide_whow_poster.jpg' %}">
+                    <source src="/media/slide_show.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div>
+                <h5 class="card-header">Слайд-шоу</h5>
+                <p class="card-text">Видео из ваших фото
+                    напомнит лучшие
+                    моменты конкретными
+                    кадрами из жизни, а
+                    также станет идеальным
+                    дополнением к
+                    персональной песне <br> или
+                    стихотворению.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="block3">
+    <h3> Soldatova song - это</h3>
+    <p>Самые трогательные сюрпризы по
+        вашим жизненным историям</p>
+    <div class="block3-content">
+        <div class="picture">
+            <div class="custom-video-controller">
+                <div class="control-buttons">
+                    <button type="button">
+                        <img src="{% static 'index/svg/play.svg' %}">
+                    </button>
+                </div>
+            </div>
+            <video poster="{% static 'index/img/song_4_poster.jpg' %}">
+                <source src="/media/soldatova_song_main.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <ul class="service-list">
+            <li> Свадебные клятвы</li>
+            <li>Благодарность родителям</li>
+            <li> Песни - переделки</li>
+            <li>Поздравления в прозе</li>
+            <li> Корпоративные стихи и песни</li>
+            <li>Эстрадные песни со смыслом</li>
+        </ul>
+    </div>
+</section>
+<section id="block4">
+    <h3>
+        Мы ценим ваше время,
+        поэтому гарантируем
+    </h3>
+    <div class="content">
+        <div class="characteristic">
+            <div class="svg-ico">
+                <img src="{% static 'index/svg/cloud.svg' %}">
+            </div>
+            <div class="characteristic-detail">
+                <span class="header">СКОРОСТЬ</span>
+                <p>В среднем написание стихотворения занимает 1-2 дня, а создание песни – от 5 дней, но мы всегда готовы
+                    пойти навстречу клиенту и сократить время написания поздравления – до 1 часа, без потери
+                    качества.</p>
+            </div>
+        </div>
+        <div class="characteristic">
+            <div class="svg-ico">
+                <img src="{% static 'index/svg/eye.svg' %}">
+            </div>
+            <div class="characteristic-detail">
+                <span class="header">ИНДИВИДУАЛЬНЫЙ ПОДХОД</span>
+                <p>Стихи, песни и слайд-шоу создаются с учетом всех ваших пожеланий (стиль написания, количество
+                    четверостиший/куплетов, длина строк, визуальное оформление и т.д.)
+                    Мы готовы реализовать любые ваши идеи.</p>
+            </div>
+        </div>
+        <div class="characteristic">
+            <div class="svg-ico">
+                <img src="{% static 'index/svg/ok.svg' %}">
+            </div>
+            <div class="characteristic-detail">
+                <span class="header">БЕЗОПАСНОСТЬ</span>
+                <p>Полная оплата производится только после ознакомления с текстом, наиболее удобным для вас
+                    способом.</p>
+            </div>
+        </div>
+        <div class="characteristic">
+            <div class="svg-ico">
+                <img src="{% static 'index/svg/micro.svg' %}">
+            </div>
+            <div class="characteristic-detail">
+                <span class="header">КАЧЕСТВО</span>
+                <p>Все песни записываются на профессиональной студии звукозаписи с новейшим оборудованием.</p>
+            </div>
+        </div>
+
+        <div class="characteristic">
+            <div class="svg-ico">
+                <img src="{% static 'index/svg/puzzle.svg' %}">
+            </div>
+            <div class="characteristic-detail">
+                <span class="header">УНИКАЛЬНОСТЬ</span>
+                <p>Стихотворения и тексты песен мы пишем по вашей истории, учитывая любые детали и подробности. Второго
+                    такого текста просто не может быть!</p>
+            </div>
+        </div>
+        <div class="characteristic">
+            <div class="svg-ico">
+                <img src="{% static 'index/svg/профессионализм.png' %}">
+            </div>
+            <div class="characteristic-detail">
+                <span class="header">ПРОФЕССИОНАЛИЗМ</span>
+                <p>Мы создаем незабываемые сюрпризы уже более 7 лет.
+                    Наши авторы работают с такими исполнителями как Annateen, Ангелина Пиппер, Таня Галай, Сергей
+                    Ксенофонтов, Alexandra и многими другими</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="reviews">
+    <h3>ОТЗЫВЫ О НАШЕЙ РАБОТЕ</h3>
+    <div>
+        <div class="owl-carousel">
+            {% for review in reviews %}
+                <div>
+                    <img class="img-content" src="{{ review.review_img.url}}" alt="review">
+                </div>
+            {% endfor %}
+            </div>
+
+        <div id="reviews-dot" class="owl-dots">
+            <button role="button" class="owl-dot"><span></span></button>
+            <button role="button" class="owl-dot"><span></span></button>
+            <button role="button" class="owl-dot"><span></span></button>
+            <button role="button" class="owl-dot active"><span></span></button>
+            <button role="button" class="owl-dot"><span></span></button>
+        </div>
+        <div id="img-reviews-nav" class="owl-nav"></div>
+    </div>
+
+</section>
+<section id="block5">
+    <h3>Просто напишите нам в один из мессенджеров</h3>
+    <div class="img-container">
+            <img id="main-photo" src="{% static 'index/img/IMG_1648013734834.jpg' %}">
+    </div>
+</section>
+{% endblock %}

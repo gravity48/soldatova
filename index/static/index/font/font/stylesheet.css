@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Extralight.eot');
+    src: local('Eastman Alternate Extralight'), local('EastmanAlternate-Extralight'),
+        url('EastmanAlternate-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Extralight.woff2') format('woff2'),
+        url('EastmanAlternate-Extralight.woff') format('woff'),
+        url('EastmanAlternate-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-ExtraboldItalic.eot');
+    src: local('Eastman Alternate Extrabold Italic'), local('EastmanAlternate-ExtraboldItalic'),
+        url('EastmanAlternate-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-ExtraboldItalic.woff2') format('woff2'),
+        url('EastmanAlternate-ExtraboldItalic.woff') format('woff'),
+        url('EastmanAlternate-ExtraboldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-BlackItalic.eot');
+    src: local('Eastman Alternate Black Italic'), local('EastmanAlternate-BlackItalic'),
+        url('EastmanAlternate-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-BlackItalic.woff2') format('woff2'),
+        url('EastmanAlternate-BlackItalic.woff') format('woff'),
+        url('EastmanAlternate-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Extrabold.eot');
+    src: local('Eastman Alternate Extrabold'), local('EastmanAlternate-Extrabold'),
+        url('EastmanAlternate-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Extrabold.woff2') format('woff2'),
+        url('EastmanAlternate-Extrabold.woff') format('woff'),
+        url('EastmanAlternate-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-HeavyItalic.eot');
+    src: local('Eastman Alternate Heavy Italic'), local('EastmanAlternate-HeavyItalic'),
+        url('EastmanAlternate-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-HeavyItalic.woff2') format('woff2'),
+        url('EastmanAlternate-HeavyItalic.woff') format('woff'),
+        url('EastmanAlternate-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Black.eot');
+    src: local('Eastman Alternate Black'), local('EastmanAlternate-Black'),
+        url('EastmanAlternate-Black.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Black.woff2') format('woff2'),
+        url('EastmanAlternate-Black.woff') format('woff'),
+        url('EastmanAlternate-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-BoldItalic.eot');
+    src: local('Eastman Alternate Bold Italic'), local('EastmanAlternate-BoldItalic'),
+        url('EastmanAlternate-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-BoldItalic.woff2') format('woff2'),
+        url('EastmanAlternate-BoldItalic.woff') format('woff'),
+        url('EastmanAlternate-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-ExtralightItalic.eot');
+    src: local('Eastman Alternate Extralight Italic'), local('EastmanAlternate-ExtralightItalic'),
+        url('EastmanAlternate-ExtralightItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-ExtralightItalic.woff2') format('woff2'),
+        url('EastmanAlternate-ExtralightItalic.woff') format('woff'),
+        url('EastmanAlternate-ExtralightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Bold.eot');
+    src: local('Eastman Alternate Bold'), local('EastmanAlternate-Bold'),
+        url('EastmanAlternate-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Bold.woff2') format('woff2'),
+        url('EastmanAlternate-Bold.woff') format('woff'),
+        url('EastmanAlternate-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate Variable';
+    src: url('EastmanAlternateVariable.eot');
+    src: local('Eastman Alternate Variable'), local('EastmanAlternateVariable'),
+        url('EastmanAlternateVariable.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternateVariable.woff2') format('woff2'),
+        url('EastmanAlternateVariable.woff') format('woff'),
+        url('EastmanAlternateVariable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate Offset';
+    src: url('EastmanAlternate-RegularOffsetItalic.eot');
+    src: local('Eastman Alternate Offset Italic'), local('EastmanAlternate-RegularOffsetItalic'),
+        url('EastmanAlternate-RegularOffsetItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-RegularOffsetItalic.woff2') format('woff2'),
+        url('EastmanAlternate-RegularOffsetItalic.woff') format('woff'),
+        url('EastmanAlternate-RegularOffsetItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Medium.eot');
+    src: local('Eastman Alternate Medium'), local('EastmanAlternate-Medium'),
+        url('EastmanAlternate-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Medium.woff2') format('woff2'),
+        url('EastmanAlternate-Medium.woff') format('woff'),
+        url('EastmanAlternate-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Regular.eot');
+    src: local('Eastman Alternate'), local('EastmanAlternate-Regular'),
+        url('EastmanAlternate-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Regular.woff2') format('woff2'),
+        url('EastmanAlternate-Regular.woff') format('woff'),
+        url('EastmanAlternate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Heavy.eot');
+    src: local('Eastman Alternate Heavy'), local('EastmanAlternate-Heavy'),
+        url('EastmanAlternate-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Heavy.woff2') format('woff2'),
+        url('EastmanAlternate-Heavy.woff') format('woff'),
+        url('EastmanAlternate-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Light.eot');
+    src: local('Eastman Alternate Light'), local('EastmanAlternate-Light'),
+        url('EastmanAlternate-Light.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Light.woff2') format('woff2'),
+        url('EastmanAlternate-Light.woff') format('woff'),
+        url('EastmanAlternate-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-MediumItalic.eot');
+    src: local('Eastman Alternate Medium Italic'), local('EastmanAlternate-MediumItalic'),
+        url('EastmanAlternate-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-MediumItalic.woff2') format('woff2'),
+        url('EastmanAlternate-MediumItalic.woff') format('woff'),
+        url('EastmanAlternate-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Thin.eot');
+    src: local('Eastman Alternate Thin'), local('EastmanAlternate-Thin'),
+        url('EastmanAlternate-Thin.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Thin.woff2') format('woff2'),
+        url('EastmanAlternate-Thin.woff') format('woff'),
+        url('EastmanAlternate-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-Italic.eot');
+    src: local('Eastman Alternate Italic'), local('EastmanAlternate-Italic'),
+        url('EastmanAlternate-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-Italic.woff2') format('woff2'),
+        url('EastmanAlternate-Italic.woff') format('woff'),
+        url('EastmanAlternate-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate Offset';
+    src: url('EastmanAlternate-RegularOffset.eot');
+    src: local('Eastman Alternate Offset'), local('EastmanAlternate-RegularOffset'),
+        url('EastmanAlternate-RegularOffset.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-RegularOffset.woff2') format('woff2'),
+        url('EastmanAlternate-RegularOffset.woff') format('woff'),
+        url('EastmanAlternate-RegularOffset.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-ThinItalic.eot');
+    src: local('Eastman Alternate Thin Italic'), local('EastmanAlternate-ThinItalic'),
+        url('EastmanAlternate-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-ThinItalic.woff2') format('woff2'),
+        url('EastmanAlternate-ThinItalic.woff') format('woff'),
+        url('EastmanAlternate-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eastman Alternate';
+    src: url('EastmanAlternate-LightItalic.eot');
+    src: local('Eastman Alternate Light Italic'), local('EastmanAlternate-LightItalic'),
+        url('EastmanAlternate-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('EastmanAlternate-LightItalic.woff2') format('woff2'),
+        url('EastmanAlternate-LightItalic.woff') format('woff'),
+        url('EastmanAlternate-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+

@@ -1,0 +1,289 @@
+
+@media screen and (max-height: 600px){
+    #block5 #main-photo{
+        height: auto;
+        transform: translateY(-50px);
+        margin: 0;
+        width: 100%;
+
+    }
+    #block5 > .img-container{
+        width: 50%;
+        border-radius: 20px 20px 0 0;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 400px){
+    body{
+        font-size: 18px;
+    }
+    .block3-content .service-list li:before{
+        width: 25px;
+        height: 35px;
+    }
+
+    
+}
+
+@media screen and (min-width: 500px){
+    body{
+        font-size: 20px;
+    }
+    .block3-content .service-list li:before{
+        width: 30px;
+        height: 40px;
+    }
+    #menu-button{
+        width: 45px;
+        height: 45px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        font-size: 18px;
+    }
+    #menu-button{
+        width: 50px;
+        height: 50px;
+    }
+    body > .offer{
+        height: 100px;
+    }
+    #logo{
+        height: 100px;
+    }
+
+    .inform-menu > {
+        display: none;
+
+    }
+    section {
+        padding: 10px 5%;
+    }
+
+    #block2 {
+        padding: 0 5%;
+    }
+
+    #block3 {
+        padding: 0 5%;
+    }
+
+    .inform-menu > .menu-button-div{
+        display: none;
+    }
+
+    .social-media-menu{
+        margin: 0 30px;
+    }
+
+    #about_me{
+        min-height: auto;
+    }
+    #about_me p{
+        margin: 10px 0;
+    }
+
+    #mobile-menu > .menu-header{
+        background: rgb(255,255,255, 0.8);
+        backdrop-filter: blur(4px);
+
+    }
+
+    #mobile-menu .menu-header .desktop-menu{
+        display: block;
+    }
+    #mobile-menu .menu-header .desktop-menu ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 1.2em;
+    }
+    #mobile-menu .menu-header .desktop-menu ul li{
+        display: block;
+        margin: 0 5px;
+
+    }
+    #mobile-menu .menu-header .desktop-menu ul li a{
+        font-size: 0.6em;
+    }
+    .social-media-menu .number-header{
+        font-size: 0.5em;
+    }
+    .social-media-menu > a{
+        font-size: 0.6em;
+    }
+    #about_me{
+        align-items: flex-start;
+        aspect-ratio: 16/9;
+    }
+    #about_me > h3{
+        text-align: left;
+        font-size: 1.4em;
+    }
+    #about_me > .contact-us > .column{
+        flex: none;
+        margin: 0 20px;
+        font-size: 1em;
+    }
+
+    #about_me .background{
+        background-image: url("../img/фон.jpg");
+        background-position: bottom;
+        background-size: cover;
+
+    }
+    #about_me > .contact-us{
+        justify-content: left;
+    }
+    #about_me .order-div{
+        background: none;
+        max-width: none;
+    }
+    #about_me .order-div p{
+        text-align: left;
+    }
+    .social-icons > a{
+        width: 40px;
+        height: 40px;
+    }
+    .social-icons{
+        justify-content: left;
+    }
+
+
+    #block2 .content .card{
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    #block2 > .content .card div:last-child{
+        flex: 45%;
+        max-width: 800px;
+        min-width: 300px;
+    }
+
+    .content .card .card-picture video{
+        max-width: 750px;
+    }
+
+    #block2 .content .card:nth-child(2n+1) div:last-child{
+        order: -1;
+    }
+
+    .custom-video-controller{
+        backdrop-filter: blur(2px);
+    }
+    #block3 .block3-content{
+        flex-direction: row;
+        align-items: stretch;
+        margin: auto;
+        gap: 2%;
+    }
+
+    #block3 > p{
+        text-align: center;
+    }
+    #block4 .content .characteristic:nth-child(n+4){
+        display: flex;
+    }
+    #block4 .content{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #block4 .content > *{
+        flex: 45%;
+    }
+
+    #block4 .content .svg-ico{
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+    #reviews{
+        margin-top: 0;
+    }
+    #reviews #img-reviews-nav{
+        display: flex;
+    }
+
+    #block5{
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        font-size: 22px;
+    }
+    #block4 .content .svg-ico{
+        width: 70px;
+        height: 70px;
+    }
+    .social-media-menu .number-header{
+        font-size: 0.7em;
+    }
+    .social-media-menu > a{
+        font-size: 0.8em;
+    }
+    #mobile-menu .menu-header .desktop-menu ul{
+        font-size: 1.3em;
+    }
+    #mobile-menu .menu-header .desktop-menu ul li{
+        margin: 0 0.3em;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    #about_me{
+        font-size: 24px;
+    }
+    #block4 .content .svg-ico{
+        width: 100px;
+        height: 100px;
+    }
+    .block3-content .service-list li:before{
+        width: 50px;
+        height: 65px;
+        background-size: cover;
+    }
+
+
+}
+
+@media screen and (min-width: 1300px) {
+    #about_me{
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    body{
+        font-size: 28px;
+    }
+    #about_me{
+        font-size: 32px;
+        gap: 50px;
+    }
+
+
+
+}
