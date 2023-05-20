@@ -19,4 +19,4 @@ jobs:
           port: 8787
           script: |
             cd /var/www/soldatova_
-            git pull
+            git pull origin main
