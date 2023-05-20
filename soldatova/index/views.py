@@ -5,6 +5,7 @@ from .models import MainHeader, Reviews
 
 # Create your views here.
 
+
 class IndexView(generic.TemplateView):
     template_name = 'index/index.html'
 

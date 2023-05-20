@@ -9,7 +9,13 @@ from .models import MainHeader, Reviews
 
 @admin.register(MainHeader)
 class MainHeaderAdmin(admin.ModelAdmin):
-    fields = (("vk",), ("telegram",), ("whatsapp",), ("instagram",), ("phone",),)
+    fields = (
+        ("vk",),
+        ("telegram",),
+        ("whatsapp",),
+        ("instagram",),
+        ("phone",),
+    )
     list_display = ("id", "vk", "telegram", "whatsapp", "instagram", "phone")
     list_display_links = ("vk", "telegram", "whatsapp", "instagram", "phone")
 
