@@ -1,3 +1,4 @@
+
 #Log files#
 log/
 download/
@@ -20,6 +21,7 @@ media/
 *.pyc 
 *.zip
 *.txt
+!requirements.txt
 *$py.class 
 
 # Distribution / packaging 
