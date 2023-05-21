@@ -32,3 +32,12 @@ class Reviews(models.Model):
     class Meta:
         verbose_name = 'Отзыв'
         verbose_name_plural = 'Отзывы'
+
+
+class Block2Content(models.Model):
+    first_card = models.TextField('Текст первой карточки')
+
+    class Meta:
+        db_table = 'block2'
+        verbose_name = 'Второй блок'
+        verbose_name_plural = 'Второй блок'
