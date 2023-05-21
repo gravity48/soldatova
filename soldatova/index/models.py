@@ -35,9 +35,12 @@ class Reviews(models.Model):
 
 
 class Block2Content(models.Model):
-    first_card = models.TextField('Текст первой карточки')
+    card_text = models.TextField('Текст карточки')
+
+    def __str__(self):
+        return f'Текст {self.id} блока'
 
     class Meta:
         db_table = 'block2'
-        verbose_name = 'Второй блок'
-        verbose_name_plural = 'Второй блок'
+        verbose_name = 'Контент второго блока'
+        verbose_name_plural = 'Контент второго блока'

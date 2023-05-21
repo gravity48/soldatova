@@ -397,10 +397,6 @@ section {
     flex-direction: column;
 }
 
-.content .card  .card-header {
-    text-align: center;
-}
-
 .content .card .card-picture {
     display: flex;
     justify-content: center;
@@ -456,14 +452,15 @@ section {
     object-fit: scale-down;
 }
 
-.content .card .card-header {
+.content .card h5  {
     font-size: 1.3em;
     margin: 15px 0 5px 0;
     color: var(--header-color);
     letter-spacing: 1px;
+    text-align: center;
 }
 
-.content .card .card-text {
+.content .card p {
     font-size: 1.15em;
     text-align: justify;
 }

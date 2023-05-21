@@ -1,10 +1,26 @@
+from ckeditor_uploader.widgets import CKEditorUploadingWidget
 from django.contrib import admin
+from django import forms
 from django.utils.safestring import mark_safe
 
-from .models import MainHeader, Reviews
+from .models import MainHeader, Reviews, Block2Content
 
 
 # Register your models here.
+
+
+class Block2Form(forms.ModelForm):
+    card_text = forms.CharField(label='Текст карточки', widget=CKEditorUploadingWidget())
+
+    class Meta:
+        model = Block2Content
+        fields = '__all__'
+
+
+@admin.register(Block2Content)
+class Block2ContentAdmin(admin.ModelAdmin):
+    form = Block2Form
+    save_on_top = True
 
 
 @admin.register(MainHeader)
