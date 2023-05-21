@@ -22,6 +22,7 @@ media/
 *.zip
 *.txt
 !requirements.txt
+!robots.txt
 *$py.class 
 
 # Distribution / packaging 
