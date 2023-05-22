@@ -44,3 +44,16 @@ class Block2Content(models.Model):
         db_table = 'block2'
         verbose_name = 'Контент второго блока'
         verbose_name_plural = 'Контент второго блока'
+
+
+class Block3Content(models.Model):
+    list_content = models.TextField('Текст списка')
+    header = models.TextField('Заголовок')
+
+    def __str__(self):
+        return 'Текст третьего блока'
+
+    class Meta:
+        db_table = 'block3'
+        verbose_name = 'Контент третьего блока'
+        verbose_name_plural = 'Контент третьего блока'

@@ -491,24 +491,23 @@ section {
 
 
 
-.block3-content .service-list {
+.block3-content ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     padding: 0;
-    white-space: nowrap;
     justify-content: space-around;
     margin: 0;
 }
 
-.block3-content .service-list li {
+.block3-content ul li {
     padding: 5px;
     display: flex;
     align-items: center;
     font-size: 1.2em;
 }
 
-.block3-content .service-list li:before {
+.block3-content ul li:before {
     display: inline-block;
     content: '';
     background: url('../img/key_logo.png') center no-repeat;

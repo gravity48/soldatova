@@ -63,9 +63,7 @@
     </div>
 </section>
 <section id="block3">
-    <h3> Soldatova song - это</h3>
-    <p>Самые трогательные сюрпризы по
-        вашим жизненным историям</p>
+    {{ block3.header | safe}}
     <div class="block3-content">
         <div class="picture">
             <div class="custom-video-controller">
@@ -80,14 +78,7 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-        <ul class="service-list">
-            <li> Свадебные клятвы</li>
-            <li>Благодарность родителям</li>
-            <li> Песни - переделки</li>
-            <li>Поздравления в прозе</li>
-            <li> Корпоративные стихи и песни</li>
-            <li>Эстрадные песни со смыслом</li>
-        </ul>
+        {{ block3.list_content | safe }}
     </div>
 </section>
 <section id="block4">

@@ -3,10 +3,7 @@ from django.contrib import admin
 from django import forms
 from django.utils.safestring import mark_safe
 
-from .models import MainHeader, Reviews, Block2Content
-
-
-# Register your models here.
+from .models import MainHeader, Reviews, Block2Content, Block3Content
 
 
 class Block2Form(forms.ModelForm):
@@ -21,6 +18,22 @@ class Block2Form(forms.ModelForm):
 class Block2ContentAdmin(admin.ModelAdmin):
     form = Block2Form
     save_on_top = True
+
+
+class Block3Form(forms.ModelForm):
+    header = forms.CharField(label='Заголовок', widget=CKEditorUploadingWidget())
+    list_content = forms.CharField(label='Текст списка', widget=CKEditorUploadingWidget())
+
+    class Meta:
+        model = Block3Content
+        fields = '__all__'
+
+
+@admin.register(Block3Content)
+class Block3ContentAdmin(admin.ModelAdmin):
+    form = Block3Form
+    save_on_top = True
+    fields = (("header"), ("list_content"))
 
 
 @admin.register(MainHeader)
